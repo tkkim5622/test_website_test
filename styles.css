@@ -1,9 +1,9 @@
 :root {
-  --ink: #182923;
-  --paper: #f5f2e9;
-  --moss: #486d59;
-  --sage: #bcc8ad;
-  --rose: #bf7163;
+  --ink: #4b2e3a;
+  --paper: #fff8f7;
+  --moss: #a95f79;
+  --sage: #f3cdd7;
+  --rose: #d97896;
 }
 
 * { box-sizing: border-box; }
@@ -28,8 +28,8 @@ main { overflow: hidden; }
   flex-direction: column;
   justify-content: center;
   background:
-    radial-gradient(circle at 89% 23%, rgba(188, 200, 173, .65) 0 12%, transparent 12.5%),
-    radial-gradient(circle at 84% 60%, rgba(72, 109, 89, .15) 0 20%, transparent 20.5%);
+    radial-gradient(circle at 89% 23%, rgba(243, 205, 215, .8) 0 12%, transparent 12.5%),
+    radial-gradient(circle at 84% 60%, rgba(169, 95, 121, .13) 0 20%, transparent 20.5%);
 }
 
 .eyebrow, .section-number, .location, footer {
@@ -53,7 +53,7 @@ h1 {
 }
 
 h1 em { color: var(--moss); font-weight: inherit; }
-.location { margin: 0; color: #50665d; }
+.location { margin: 0; color: #815064; }
 
 .about, .painting {
   padding: clamp(4rem, 9vw, 9rem) clamp(2rem, 8vw, 9rem);
@@ -101,7 +101,7 @@ figure img {
 
 figcaption {
   margin-top: 1rem;
-  color: #304b3f;
+  color: #724658;
   font-family: "DM Mono", monospace;
   font-size: .7rem;
   letter-spacing: .02em;
@@ -112,8 +112,8 @@ footer {
   justify-content: space-between;
   gap: 1rem;
   padding: 1.5rem clamp(2rem, 8vw, 9rem);
-  background: #d1d6c1;
-  color: #3d5047;
+  background: #f0bfcf;
+  color: #714055;
 }
 
 footer p { margin: 0; }
